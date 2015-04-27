@@ -3,6 +3,11 @@
   tags = tag -l
   branches = branch -a
   remotes = remote -v
+  # Short name
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
   # Pretty log output
   hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
 
@@ -28,3 +33,5 @@
   remote = origin
   merge = refs/heads/master
 
+[push]
+	default = simple
