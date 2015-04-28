@@ -13,3 +13,8 @@ unset file
 
 # Enable bash vi mode input
 set -o vi
+
+# Set Env Vars
+export M2_HOME=/usr/local/Cellar/maven30/3.0.5/libexec
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)
+
