@@ -12,18 +12,13 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [JDK](#JDK)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
-- [Command Line Tools](#command-line-tools)
 - [Git](#git)
-
 - [Maven](#maven)
 - [Tomcat](#tomcat)
 - [IntelliJ Idea](#intellij-idea)
-
 - [Beautiful terminal](#beautiful-terminal)
 - [iTerm2](#iterm2)
-
 - [Sublime Text](#sublime-text)
-
 - [MySQL](#mysql)
 - [Projects folder](#projects-folder)
 
@@ -55,6 +50,7 @@ Type `javac` in termial, go on with the detail information button. It will lead 
 Set up `$JAVA_HOME` parameter for terminal. Open `.bash_profile` and add the following.
 
 ```shell
+# suppose v1.6 is used.
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)
 ```
 
@@ -316,6 +312,12 @@ If install sucessfully, we could get the installation path for maven. Export `$M
     $ echo 'export M2_HOME=/usr/local/Cellar/maven30/3.0.5/libexec' >> .bash_profile
 
 
+Copy `.m2` directory to `~/.m2` from your mentor for repository setting and downloaed cache.
+
+## Tomcat
+
+Select a suitable version tomcat according to you JA
+
 ## IntelliJ Idea
 
 Download IntelliJ Idea from its main page. 
@@ -324,9 +326,9 @@ Choose import file from CVS
 
 Maven clean and install
 
-Click `+` in application setting panel, and add local server for tomcat
+Click `+` in `Preference -> Application Server` setting panel, and add local server for tomcat
 
-Click `Run -> Edit configurations...`, add artifacts.
+Click `Run -> Edit configurations...`, add artifacts for deploys.
 
 
 ## MySQL
