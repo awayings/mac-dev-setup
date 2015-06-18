@@ -38,3 +38,5 @@
 [user]
 	name = jing.zhang.sh2
 	email = jing.shang.sh2@dianping.com
+[core]
+	autocrlf = input

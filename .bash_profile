@@ -15,6 +15,7 @@ unset file
 set -o vi
 
 # Set Env Vars
-export M2_HOME=/usr/local/Cellar/maven30/3.0.5/libexec
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)
+#export M2_HOME=/usr/local/Cellar/maven30/3.0.5/libexec
+#export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)
+#export JAVA_OPTS="-Xms756m -Xmx756m -Xss128m -Xmn512m"
 
