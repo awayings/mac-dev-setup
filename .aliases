@@ -26,6 +26,9 @@ alias gcam="git ci -a -m"
 alias gpu="git push"
 alias gpl="git pull"
 
+# Alas for npm
+alias npmc="npm --registry=https://registry.npm.taobao.org "
+
 # Alias
 alias tomr='ps aux | grep tomcat | sed "s/ \{1,20\}/ /g" | cut -d " " -f 2 | while read line; do kill $line; done'
 alias toa='cp /data/webapps/appenv.alpha /data/webapps/appenv;echo "change to alpha env."'
