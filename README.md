@@ -4,7 +4,7 @@ This document describes how I set up my developer environment on a new MacBook o
 
 The document assumes you are new to Mac. The steps below were tested on **OS X Yousemite**.
 
-If you have any comments or suggestions, feel free to give me a shout [on Twitter](https://twitter.com/nicolahery)!
+If you have any comments or suggestions, feel free to give me a shout [on Weibo](http://weibo.com/awayings/)!
 
 - [System Update](#system-update)
 - [System Preferences](#system-preferences)
@@ -21,6 +21,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Sublime Text](#sublime-text)
 - [MySQL](#mysql)
 - [MySQL Workbench](#mysql-workbench)
+- [Sequel Pro](#sequel-pro)
 - [Projects Folder](#projects-folder)
 
 ## System update
@@ -377,6 +378,15 @@ In terms of a GUI client for MySQL, I'm used to the official and free [MySQL Wor
 
 You can find the MySQL Workbench download [here](http://www.mysql.com/downloads/workbench/). (**Note**: It will ask you to sign in, you don't need to, just click on "No thanks, just start my download!" at the bottom.)
 
+### Sequel Pro
+Another small but powerfull sql command. You could easily export selected data as json format. Download link [here|http://www.sequelpro.com/download]
+
 ### Projects folder
 
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in ~/projects. Other documents I may have, or things not yet under version control ~/Documents
+*~/projects
+*~/documents
+*/usr/local Place for third-party software
+*/usr/local/Cellar Brew's default target installation place.
+*/Library/Java/JavaVirtualMachines/ Oracle's java virtual machine installaiton place.
+*/System/Library/Frameworks/JavaVM.framework Mac's own installation of java
