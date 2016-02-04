@@ -38,6 +38,7 @@ In **Apple Icon > System Preferences**:
 - Keyboard > Key Repeat > Fast (all the way to the right)
 - Keyboard > Delay Until Repeat > Short (all the way to the right)
 - Dock > Automatically hide and show the Dock
+- Accessibility > Trackpad Options > Enable dragging (three finger drag)
 
 ## Google Chrome
 
@@ -95,6 +96,13 @@ One thing we need to do is tell the system to use programs installed by Hombrew 
 Open a new terminal tab with **Cmd+T** (you should also close the old one), then run the following command to make sure everything works:
 
     $ brew doctor
+    
+Change setting to use chinese mirror. Thanks [ban.nijia](http://ban.ninja/)
+
+    $ echo 'export HOMEBREW_BOTTLE_DOMAIN=http://7xkcej.dl1.z0.glb.clouddn.com' > ~/.bash_profile # or .bashrc
+    $ cd /usr/local
+    $ git remote set-url origin https://gitcafe.com/ban-ninja/homebrew.git
+
     
 ### Usage
 
@@ -385,9 +393,9 @@ Another small but powerfull sql command. You could easily export selected data a
 
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in ~/projects. Other documents I may have, or things not yet under version control ~/Documents
 
-* ~/projects
-* ~/documents
-* /usr/local Place for third-party software
-* /usr/local/Cellar Brew's default target installation place.
-* /Library/Java/JavaVirtualMachines/ Oracle's java virtual machine installaiton place.
-* /System/Library/Frameworks/JavaVM.framework Mac's own installation of java
+* `~/projects`
+* `~/documents`
+* `/usr/local` Place for third-party software
+* `/usr/local/Cellar` Brew's default target installation place.
+* `/Library/Java/JavaVirtualMachines/` Oracle's java virtual machine installaiton place.
+* `/System/Library/Frameworks/JavaVM.framework` Mac's own installation of java
