@@ -384,9 +384,10 @@ Another small but powerfull sql command. You could easily export selected data a
 ### Projects folder
 
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in ~/projects. Other documents I may have, or things not yet under version control ~/Documents
-*~/projects
-*~/documents
-*/usr/local Place for third-party software
-*/usr/local/Cellar Brew's default target installation place.
-*/Library/Java/JavaVirtualMachines/ Oracle's java virtual machine installaiton place.
-*/System/Library/Frameworks/JavaVM.framework Mac's own installation of java
+
+* ~/projects
+* ~/documents
+* /usr/local Place for third-party software
+* /usr/local/Cellar Brew's default target installation place.
+* /Library/Java/JavaVirtualMachines/ Oracle's java virtual machine installaiton place.
+* /System/Library/Frameworks/JavaVM.framework Mac's own installation of java
